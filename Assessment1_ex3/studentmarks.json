@@ -1,0 +1,84 @@
+{
+    "Student Details": [
+        {
+            "code": 1345,
+            "name": "John Curry",
+            "course1": 8,
+            "course2": 15,
+            "course3": 7,
+            "exam": 45
+        },
+        {
+            "code": 2345,
+            "name": "Sam Sturtivant",
+            "course1": 14,
+            "course2": 15,
+            "course3": 14,
+            "exam": 77
+        },
+        {
+            "code": 9876,
+            "name": "Lee Scott",
+            "course1": 17,
+            "course2": 11,
+            "course3": 16,
+            "exam": 99
+        },
+        {
+            "code": 3724,
+            "name": "Matt Thompson",
+            "course1": 19,
+            "course2": 11,
+            "course3": 15,
+            "exam": 81
+        },
+        {
+            "code": 1212,
+            "name": "Ron Herrema",
+            "course1": 14,
+            "course2": 17,
+            "course3": 18,
+            "exam": 66
+        },
+        {
+            "code": 8439,
+            "name": "Jake Hobbs",
+            "course1": 10,
+            "course2": 11,
+            "course3": 10,
+            "exam": 43
+        },
+        {
+            "code": 2344,
+            "name": "Jo Hyde",
+            "course1": 6,
+            "course2": 15,
+            "course3": 10,
+            "exam": 55
+        },
+        {
+            "code": 9384,
+            "name": "Gareth Southgate",
+            "course1": 5,
+            "course2": 6,
+            "course3": 8,
+            "exam": 33
+        },
+        {
+            "code": 8327,
+            "name": "Alan Shearer",
+            "course1": 20,
+            "course2": 20,
+            "course3": 20,
+            "exam": 100
+        },
+        {
+            "code": 2983,
+            "name": "Les Ferdinand",
+            "course1": 15,
+            "course2": 17,
+            "course3": 20,
+            "exam": 92
+        }
+    ]
+}
