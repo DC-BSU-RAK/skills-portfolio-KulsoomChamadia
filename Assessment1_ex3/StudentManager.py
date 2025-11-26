@@ -859,18 +859,18 @@ def save_student_list_to_file(students):
 frame1 = Frame(root, width=1900, height=1000)
 frame1.place(x=0, y=0)
 
-# k𖹭.ᐟ------------------exit button for frame 1---------------------------$𖹭.ᐟ
-btn11 = ImageTk.PhotoImage(Image.open("ex3/btn/exit.png").resize((61, 30)))
-Button(frame1, image=btn11, borderwidth=0, highlightthickness=0,
-bg=frame1["bg"], activebackground=frame1["bg"],
-command=lambda : frame_switch(frame3)).place(x=200, y=108)
-
 # k𖹭.ᐟ------------------background image for frame 1---------------------------$𖹭.ᐟ
 try:
     frame1_bg = ImageTk.PhotoImage(Image.open("ex3/bgpics/pg1.jpg").resize((1280, 650)))
     Label(frame1, image=frame1_bg).place(x=0, y=0)
 except Exception:
     pass
+
+# k𖹭.ᐟ------------------exit button for frame 1---------------------------$𖹭.ᐟ
+btn11 = ImageTk.PhotoImage(Image.open("ex3/btn/exit.png").resize((61, 30)))
+Button(frame1, image=btn11, borderwidth=0, highlightthickness=0,
+bg=frame1["bg"], activebackground=frame1["bg"],
+command=lambda : frame_switch(frame3)).place(x=1143, y=37)
 
 # k𖹭.ᐟ------------------view menu button---------------------------$𖹭.ᐟ
 view_menu = Frame(frame1, bg="white")
